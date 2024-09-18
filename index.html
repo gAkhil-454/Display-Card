@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="left">
+
+            
+                <div class="images" >
+                    <div class="slides fade">
+                        <img src="images/1.png" alt="1">
+                    </div>
+                    <div class="slides">
+                        <img src="images/2.png" alt="1">
+    
+                    </div>
+                    <div class="slides">
+                        <img src="images/3.png" alt="1">
+    
+                    </div>
+                    <div class="slides">
+                        <img src="images/4.png" alt="1">
+    
+                    </div>
+                    <div class="slides">
+                        <img src="images/5.png" alt="1">
+    
+                    </div>
+                    <div class="slides">
+                        <img src="images/6.png" alt="1">
+    
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div style="text-align:center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+                
+            
+            </div>
+            <div class="details" style="width: 40%;">
+                <h3 style="margin-left: 10px; margin-right: 5px;">MB.03 Hills Unisex Basketball Shoes</h3>
+                <p style="margin-left: 10px;"><b>₹13,999</b></p>
+                <p style="margin-left: 10px;">Prices include GST</p>
+                <p style="margin-left: 10px;"><b>Color</b></p>
+                <p style="margin-left: 10px;">Feather Gray-Lime Smash</p>
+                <p style="margin-left: 10px;"><b>Choose Size</b></p>
+                <div class="sizes">
+                    <button class="size"  onclick="currbut(1)">7</button>
+                    <button class="size"  onclick="currbut(2)">8</button>
+                    <button class="size"  onclick="currbut(3)">9</button>
+                    <button class="size"  onclick="currbut(4)">10</utton>
+                    <button class="size"  onclick="currbut(5)">11</button>
+                    <button class="size"  onclick="currbut(6)">12</button>
+                </div>
+                <br>
+                <div class="bu">
+                    <button class="b1" onclick="increase(1)">ADD TO CART</button>
+                    <button class="b2" onclick="show()">WHISLIST</button>
+                </div>
+               
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
